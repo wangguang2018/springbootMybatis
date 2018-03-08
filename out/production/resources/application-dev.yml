@@ -1,0 +1,7 @@
+server:
+  port: 8087
+  context-path: /mybatis
+person:
+    name: 张三
+    age : 222
+    content: "name: ${person.name} ,age22222: ${person.age}"
